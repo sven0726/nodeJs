@@ -1,0 +1,89 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save', 'os' ]
+2 info using npm@2.1.10
+3 info using node@v0.11.2
+4 warn package.json cluster-test@1.0.1 No repository field.
+5 warn package.json cluster-test@1.0.1 No README data
+6 warn package.json http@0.0.0 http is also the name of a node core module.
+7 warn package.json http@0.0.0 No description
+8 warn package.json http@0.0.0 No repository field.
+9 warn package.json http@0.0.0 No README data
+10 warn package.json cluster@0.7.7 cluster is also the name of a node core module.
+11 silly cache add args [ 'os', null ]
+12 verbose cache add spec os
+13 silly cache add parsed spec { raw: 'os',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'os',
+13 silly cache add   rawSpec: '',
+13 silly cache add   spec: '*',
+13 silly cache add   type: 'range' }
+14 verbose addNamed os@*
+15 silly addNamed semver.valid null
+16 silly addNamed semver.validRange *
+17 silly addNameRange { name: 'os', range: '*', hasData: false }
+18 silly mapToRegistry name os
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/os
+22 verbose addNameRange registry:https://registry.npmjs.org/os not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/os
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 09:38:28
+26 verbose request id 0e930c5b2db9982b
+27 http request GET https://registry.npmjs.org/os
+28 http 404 https://registry.npmjs.org/os
+29 verbose headers { date: 'Tue, 09 Dec 2014 01:39:45 GMT',
+29 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=0',
+29 verbose headers   'content-length': '52',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   'x-served-by': 'cache-ty66-TYO',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1418089185.613333,VS0,VE126',
+29 verbose headers   'keep-alive': 'timeout=10, max=50',
+29 verbose headers   connection: 'Keep-Alive' }
+30 silly get cb [ 404,
+30 silly get   { date: 'Tue, 09 Dec 2014 01:39:45 GMT',
+30 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly get     'content-type': 'application/json',
+30 silly get     'cache-control': 'max-age=0',
+30 silly get     'content-length': '52',
+30 silly get     'accept-ranges': 'bytes',
+30 silly get     via: '1.1 varnish',
+30 silly get     'x-served-by': 'cache-ty66-TYO',
+30 silly get     'x-cache': 'MISS',
+30 silly get     'x-cache-hits': '0',
+30 silly get     'x-timer': 'S1418089185.613333,VS0,VE126',
+30 silly get     'keep-alive': 'timeout=10, max=50',
+30 silly get     connection: 'Keep-Alive' } ]
+31 verbose stack Error: 404 Not Found: os
+31 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:232:14)
+31 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+31 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:372:22)
+31 verbose stack     at Request.EventEmitter.emit (events.js:100:17)
+31 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1317:14)
+31 verbose stack     at Request.EventEmitter.emit (events.js:119:20)
+31 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1265:12)
+31 verbose stack     at IncomingMessage.EventEmitter.emit (events.js:119:20)
+31 verbose stack     at _stream_readable.js:894:16
+31 verbose stack     at process._tickCallback (node.js:415:13)
+32 verbose statusCode 404
+33 verbose pkgid os
+34 verbose cwd /home/hadoop/workspace/nodeJs/nodejs-cluster
+35 error Linux 3.13.0-32-generic
+36 error argv "node" "/usr/local/bin/npm" "install" "--save" "os"
+37 error node v0.11.2
+38 error npm  v2.1.10
+39 error code E404
+40 error 404 Not Found: os
+40 error 404
+40 error 404 'os' is not in the npm registry.
+40 error 404 You should bug the author to publish it (or use the name yourself!)
+40 error 404 It was specified as a dependency of 'cluster-test'
+40 error 404
+40 error 404 Note that you can also install from a
+40 error 404 tarball, folder, http url, or git url.
+41 verbose exit [ 1, true ]
