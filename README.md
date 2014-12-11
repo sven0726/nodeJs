@@ -54,7 +54,7 @@ nodejs是一个单进程单线程的服务器引擎，不管有多么的强大�
 * d.scoket.io在服务端和客户端通讯（聊天系统核心）
 
 示例图：
-![geedoo.info](http://www.geedoo.info/wp-content/uploads/2014/12/nodejs-scoket-chart-demo2.gif,基于Scoket.io的网页聊天系统)
+![geedoo.info](http://www.geedoo.info/wp-content/uploads/2014/12/nodejs-scoket-chart-demo2.gif "基于Scoket.io的网页聊天系统")
 
 详细参考：[Scoket.io用于开发WebSocket应用示例](http://www.geedoo.info/scoket-io%E7%94%A8%E4%BA%8E%E5%BC%80%E5%8F%91websocket%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B.html)
 
