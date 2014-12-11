@@ -8,11 +8,11 @@ NodeJs学习示例的相关项目
 * Nodejs+socket.io 服务器监控
 
 ##Nodejs+express4.x+boostrap web开发
-项目地址：https://github.com/sven0726/nodeJs/tree/master/nodejs-demo
+项目地址：https://github.com/sven0726/nodeJs/tree/master/nodejs-demo<br>
 详细参考：[Nodejs开发框架Express4.x开发手记](http://www.geedoo.info/nodejs-development-framework-express4-x-development-notes.html)
 
 ##Nodejs cluster 多核处理模块cluster
-项目地址：https://github.com/sven0726/nodeJs/tree/master/nodejs-cluster
+项目地址：https://github.com/sven0726/nodeJs/tree/master/nodejs-cluster<br>
 详细参考：[node.js多核处理模块cluster](http://www.geedoo.info/node-js-multicore-processing-module-cluster.html)
 
 ##Nodejs+socket.io 聊天系统
