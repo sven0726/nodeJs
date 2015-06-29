@@ -16,4 +16,4 @@ Websocket技术的强大之处在于，打通了浏览器和服务器的双向�
 * 实现websocket客户端
 * 用Highcharts生成时时系统监控图
 
-> 来自：http://blog.fens.me/nodejs-websocket-monitor/
+>来自：http://blog.fens.me/nodejs-websocket-monitor/
